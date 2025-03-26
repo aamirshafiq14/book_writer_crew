@@ -13,8 +13,9 @@ out_liner_T= tasks.Out_line_T(
 )
 
 crew = Crew(
-    agents=[out_liner],
-    tasks= [out_liner_T],
+    agents=[out_liner], [book_writer],
+    tasks= [out_liner_T], [book_writer_T],
+
     verbose= True,
 )
 
